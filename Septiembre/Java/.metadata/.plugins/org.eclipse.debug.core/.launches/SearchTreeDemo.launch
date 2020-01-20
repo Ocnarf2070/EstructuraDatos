@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/code.unit4.zip_expanded/Nueva carpeta/data.structures/java/src/demos/searchTree/SearchTreeDemo.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="demos.searchTree.SearchTreeDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="code.unit4.zip_expanded"/>
+</launchConfiguration>

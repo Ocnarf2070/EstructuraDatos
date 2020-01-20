@@ -1,0 +1,35 @@
+import dataStructures.searchTree.BST;;
+public class SearchTreeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BST<Integer, ?> tree = new BST<>();
+		int [] a = {5,2,7,1,3,7}; //{2,3,5,1,2,10,3,5,10,6};
+		for(int i : a) {
+			tree.insert(i, null);
+			System.out.print("inOrder: ");
+			for(int l : tree.inOrder()) {
+				System.out.print(l+" ");
+			}
+			System.out.println();
+			System.out.print("preOrder: ");
+			for(int l : tree.preOrder()) {
+				System.out.print(l+" ");
+			}
+			System.out.println();
+			System.out.print("postOrder: ");
+			for(int l : tree.postOrder()) {
+				System.out.print(l+" ");
+			}
+			System.out.println();
+			System.out.println();
+		}
+		System.out.print("Esta 10 en el arbol? ");
+		System.out.println(tree.isElem(10) ?"true":"false");
+		
+		System.out.print("Esta 5 en el arbol? ");
+		System.out.println(tree.isElem(5) ?"true":"false");
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package dataStructures.graph;
+import dataStructures.graph.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DiGraph<Character> graph = new DictionaryDiGraph<>();
+		for (char c = 'a'; c <= 'd'; c++) {
+            graph.addVertex(c);
+        }
+		
+		graph.addDiEdge('a', 'b');
+		graph.addDiEdge('a', 'c');
+		graph.addDiEdge('c', 'd');
+		graph.addDiEdge('d', 'b');
+		System.out.println(graph.toString());
+		
+	}
+
+}

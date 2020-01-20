@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="graph.Pair"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="dataStructures.graph.BreadthFirstTraversal"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="dataStructures.stack.ArrayStack"/>
+<fullyQualifiedTypeName name="dataStructures.doubleEndedQueue.LinkedDoubleEndedQueue.Node"/>
+<fullyQualifiedTypeName name="dataStructures.doubleEndedQueue.LinkedDoubleEndedQueue"/>
+<fullyQualifiedTypeName name="dataStructures.doubleEndedQueue.EmptyDoubleEndedQueueException"/>
+<fullyQualifiedTypeName name="dataStructures.graph.GraphException"/>
+<fullyQualifiedTypeName name="dataStructures.list.ArrayList"/>
+<fullyQualifiedTypeName name="dataStructures.graph.DictionaryDiGraph"/>
+<fullyQualifiedTypeName name="dataStructures.set.Set"/>
+<fullyQualifiedTypeName name="dataStructures.set.HashSet"/>
+<fullyQualifiedTypeName name="dataStructures.graph.DepthFirstTraversal"/>
+<fullyQualifiedTypeName name="dataStructures.graph.DiGraph"/>
+<fullyQualifiedTypeName name="dataStructures.graph.SCCDiGraph"/>
+<fullyQualifiedTypeName name="dataStructures.vector.VectorException"/>
+<fullyQualifiedTypeName name="dataStructures.vector.SparseVector.Unif"/>
+<fullyQualifiedTypeName name="dataStructures.vector.SparseVector.Node"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+<fullyQualifiedTypeName name="dataStructures.vector.SparseVector.Tree"/>
+<fullyQualifiedTypeName name="dataStructures.vector.SparseVector"/>
+<fullyQualifiedTypeName name="dataStructures.priorityQueue.BinaryHeapPriorityQueue"/>
+<fullyQualifiedTypeName name="dataStructures.priorityQueue.PriorityQueue"/>
+<fullyQualifiedTypeName name="dataStructures.tuple.Tuple2"/>
+<fullyQualifiedTypeName name="dataStructures.list.List"/>
+<fullyQualifiedTypeName name="dataStructures.dictionary.Dictionary"/>
+<fullyQualifiedTypeName name="dataStructures.dictionary.AVLDictionary"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="dataStructures.list.LinkedList"/>
+<fullyQualifiedTypeName name="WLeafTree"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="HuffmanException"/>
+</qualifiedTypeNameHistroy>

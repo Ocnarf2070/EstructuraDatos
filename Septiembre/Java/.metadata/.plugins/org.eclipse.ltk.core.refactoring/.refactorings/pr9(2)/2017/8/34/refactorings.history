@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;pr9(2)/src/dataStructures.graph&apos;&#x0D;&#x0A;- Original project: &apos;pr9(2)&apos;&#x0D;&#x0A;- Destination element: &apos;pr9(2)/src/dataStructures.graph&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     TopologicalSortingDic.java&#x0D;&#x0A;     TopologicalSortingDicPar.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;dataStructures.graph" element1="/src&lt;{TopologicalSortingDic.java" element2="/src&lt;{TopologicalSortingDicPar.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1503439135804" units="2" version="1.0"/>
+</session>

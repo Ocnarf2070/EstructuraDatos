@@ -1,0 +1,73 @@
+package dataStructures.graph;
+
+import dataStructures.set.Set;
+
+import dataStructures.set.HashSet;
+
+public class SCCDiGraph {
+
+		/* 
+		 * apartado A
+		 */
+	 	public static <V> DiGraph<V> reverseDiGraph(DiGraph<V> g){
+			DiGraph<V> reversedDiGraph = new DictionaryDiGraph<V>();
+			// . . .
+			for(V ver : g.vertices()) reversedDiGraph.addVertex(ver);
+			for(V or : g.vertices()) {
+				for(V dest : g.successors(or)) {
+					reversedDiGraph.addDiEdge(dest, or);
+				}
+			}
+			return reversedDiGraph;
+		}
+
+	 	/* 
+	 	 * apartado B
+	 	 */
+		public static <V> DiGraph<V> restrictDiGraph(DiGraph<V> g, Set<V> vs){
+
+			DiGraph<V> restrictedGraph = new DictionaryDiGraph<V>();
+			for(V ver : vs)if(g.vertices().isElem(ver)) restrictedGraph.addVertex(ver);
+			for(V or : vs) {
+				for(V dest : g.successors(or)) {
+					if(vs.isElem(dest))restrictedGraph.addDiEdge(or, dest);
+				}
+			}
+			// . . . 
+			return restrictedGraph;
+		}
+
+		/* 
+	 	 * apartado C
+	 	 */
+		public static <V> Set<V> sccOf (DiGraph<V>g, V src) {
+			// . . .
+			return iterableToSet(new DepthFirstTraversal<V>(reverseDiGraph(restrictDiGraph(g, iterableToSet(new DepthFirstTraversal<V>(g, src).vertices()))), src).vertices());
+		}
+
+		
+		/* 
+	 	 * apartado D
+	 	 */
+		public static <V> Set<Set<V>> stronglyConnectedComponentsDiGraph(DiGraph<V> graph) {
+			Set<Set<V>> components  = new HashSet<Set<V>>();
+			@SuppressWarnings("unchecked")
+			DiGraph<V> clone = (DiGraph<V>) graph.clone();
+			while(!clone.vertices().isEmpty()) {
+				V ver = clone.vertices().iterator().next();
+				Set <V> v = sccOf(clone, ver);
+				components.insert(v);
+				for(V n : v)clone.deleteVertex(n);
+			}
+			// ...
+			return components;
+		}	
+
+	static <V> Set<V> iterableToSet(Iterable<V> it) {
+		Set<V> set = new HashSet<V>();
+		for(V v : it)
+			set.insert(v);
+		return set;		
+	}
+ 
+} // class

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;tree&apos; from expression &apos;(Tree&lt;T&gt;)new Node&lt;T&gt;(new Unif&lt;T&gt;(elem),new Unif&lt;T&gt;(elem)).get(sz,i)&apos;&#x0D;&#x0A;- Original project: &apos;SparseVectors&apos;&#x0D;&#x0A;- Variable name: &apos;tree&apos;&#x0D;&#x0A;- Destination method: &apos;dataStructures.vector.SparseVector.Unif.set()&apos;&#x0D;&#x0A;- Variable expression: &apos;(Tree&lt;T&gt;)new Node&lt;T&gt;(new Unif&lt;T&gt;(elem),new Unif&lt;T&gt;(elem)).get(sz,i)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;tree&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;dataStructures.vector{SparseVector.java" name="tree" replace="true" selection="1128 70" stamp="1504364405486" version="1.0"/>
+</session>
